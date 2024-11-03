@@ -32,8 +32,8 @@ You can find the run information of our model on [Wandb](https://wandb.ai/javier
 
 | Tool | Description |
 | --- | --- |
-| [Roboflow](https://universe.roboflow.com/) | A platform for data labeling and annotation |
-| [Makesense.ai](https://www.makesense.ai/) | A platform for data labeling and annotation |
+| [Roboflow](https://universe.roboflow.com/) | A platform collaborative for data labeling and annotation (Public data)|
+| [Makesense.ai](https://www.makesense.ai/) | A platform for data labeling and annotation (Private data) |
 
 ### Script for Data Export
 
