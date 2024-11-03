@@ -21,7 +21,7 @@ For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [mak
 ![Roboflow or Makesense for label data](/img/ro.gif)
 
 
-Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/overview)
+Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training)
 ```
 structure for dataset (images and masks)
 dataset
