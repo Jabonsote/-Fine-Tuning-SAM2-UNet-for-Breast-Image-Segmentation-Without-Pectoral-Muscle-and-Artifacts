@@ -18,10 +18,10 @@ You can refer to the following repositories and their papers for the detailed co
 - Polyp Segmentation. Please refer to [PraNet](https://github.com/DengPingFan/PraNet).
 
 For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [makesense.ai](https://www.makesense.ai/) for export to COCO dataset and use the script coco2sam, and ajust the porcent of images
-![Roboflow or Makesense for label data](./robo.jpg)
+![Roboflow or Makesense for label data](/img/ro.gif)
 
 
-Run information in wandb [Wandb] (https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/overview)
+Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/overview)
 ```
 structure for dataset (images and masks)
 dataset
@@ -57,6 +57,13 @@ If you want to train your own model, please download the pre-trained segment any
 
 ## Testing
 Our pre-trained models and prediction maps can be found on [Google Drive](https://drive.google.com/drive/folders/1w2fK8kLhtEmMWZ6G6w9_J17xwgfm3lev?usp=drive_link). Also, you can run `test.sh` to obtain your own predictions.
+
+### Examples
+
+![Inferences during training](/img/inferences.png)
+
+![Inferences during training](/img/inference1.png)
+
 
 ## Evaluation
 After obtaining the prediction maps, you can run `eval.sh` to get most of the quantitative results. For the evaluation of mirror detection, please refer to `eval.py` in [HetNet](https://github.com/Catherine-R-He/HetNet) to obtain the results.
