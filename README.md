@@ -3,6 +3,7 @@ Xinyu Xiong, Zihuang Wu, Shuangyi Tan, Wenxue Li, Feilong Tang, Ying Chen, Siyin
 
   ## Architecture
 ![framework](./sam2unet.jpg)
+![REPORT OF OUR MODEL](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 ## Clone Repository
 ```shell
@@ -85,7 +86,6 @@ pip install -r requirements.txt
 ## Training
 If you want to train your own model, please download the pre-trained segment anything 2 from the [official repository](https://github.com/facebookresearch/segment-anything-2). You can also directly download `sam2_hiera_large.pt` from [here](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt). After the above preparations, you can run `train.sh` to start your training.
 
-[REPORT OF OUR MODEL](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 ## Testing
 Our pre-trained models and prediction maps can be found on [Google Drive](https://drive.google.com/drive/folders/1w2fK8kLhtEmMWZ6G6w9_J17xwgfm3lev?usp=drive_link). Also, you can run `test.sh` to obtain your own predictions.
@@ -104,6 +104,7 @@ Breast implants
 
 ![Inferences during training](/img/inference1.png)
 
+[REPORT OF OUR MODEL WANDB](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 ## Evaluation
 After obtaining the prediction maps, you can run `eval.sh` to get most of the quantitative results. For the evaluation of mirror detection, please refer to `eval.py` in [HetNet](https://github.com/Catherine-R-He/HetNet) to obtain the results.
