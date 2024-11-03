@@ -85,6 +85,8 @@ pip install -r requirements.txt
 ## Training
 If you want to train your own model, please download the pre-trained segment anything 2 from the [official repository](https://github.com/facebookresearch/segment-anything-2). You can also directly download `sam2_hiera_large.pt` from [here](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt). After the above preparations, you can run `train.sh` to start your training.
 
+[REPORT OF OUR MODEL](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
+
 ## Testing
 Our pre-trained models and prediction maps can be found on [Google Drive](https://drive.google.com/drive/folders/1w2fK8kLhtEmMWZ6G6w9_J17xwgfm3lev?usp=drive_link). Also, you can run `test.sh` to obtain your own predictions.
 
