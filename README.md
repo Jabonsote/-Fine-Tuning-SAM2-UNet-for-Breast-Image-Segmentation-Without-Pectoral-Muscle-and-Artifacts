@@ -44,7 +44,7 @@ Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-U
 
   * **images** 📸
   * **masks** 🔍
-==========
+
 
 ## Requirements
 Our project does not depend on installing SAM2. If you have already configured an environment for SAM2, then directly using this environment should also be fine. You may also create a new conda environment:
@@ -58,18 +58,19 @@ pip install -r requirements.txt
 ## Training
 If you want to train your own model, please download the pre-trained segment anything 2 from the [official repository](https://github.com/facebookresearch/segment-anything-2). You can also directly download `sam2_hiera_large.pt` from [here](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt). After the above preparations, you can run `train.sh` to start your training.
 
-
-### About training in Breast ... (add info)
-
-(image training, metrics and link to report wandb)
-
-
 ## Testing
 Our pre-trained models and prediction maps can be found on [Google Drive](https://drive.google.com/drive/folders/1w2fK8kLhtEmMWZ6G6w9_J17xwgfm3lev?usp=drive_link). Also, you can run `test.sh` to obtain your own predictions.
 
 ### Examples
+Inferences during training for breast segmentation without pectoral muscle 💡
 
+In this example, we demonstrate the model's ability to make inferences during training for the task of breast segmentation without pectoral muscle 🤖. The goal is to identify and segment the breast in mammography images, excluding the pectoral muscle 📸.
 ![Inferences during training](/img/inferences.png)
+
+
+    Nipple marks 🤯: Marks or artifacts around the nipple area can be challenging for the model to distinguish from the breast tissue.
+    Pectoral muscle (upper and lower borders) 🏋️‍♂️: The pectoral muscle can be a significant challenge for segmentation, especially when its upper and lower borders are not clearly defined.
+    Other artifacts 🚫: Other artifacts that may occur in this context include:
 
 ![Inferences during training](/img/inference1.png)
 
