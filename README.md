@@ -17,6 +17,11 @@ You can refer to the following repositories and their papers for the detailed co
 - Mirror Detection. Please refer to [HetNet](https://github.com/Catherine-R-He/HetNet).
 - Polyp Segmentation. Please refer to [PraNet](https://github.com/DengPingFan/PraNet).
 
+For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [makesense.ai](https://www.makesense.ai/) for export to COCO dataset and use the script coco2sam, and ajust the porcent of images
+![Roboflow or Makesense for label data](./robo.jpg)
+
+
+Run information in wandb [Wandb] (https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/overview)
 ```
 structure for dataset (images and masks)
 dataset
