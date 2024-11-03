@@ -6,7 +6,7 @@ Xinyu Xiong, Zihuang Wu, Shuangyi Tan, Wenxue Li, Feilong Tang, Ying Chen, Siyin
 
 ## Clone Repository
 ```shell
-git clone [https://github.com/WZH0120/SAM2-UNet.git](https://github.com/Jabonsote/-Fine-Tuning-SAM2-UNet-for-Breast-Image-Segmentation-Without-Pectoral-Muscle-and-Artifacts.git)
+git clone https://github.com/Jabonsote/Fine-Tuning-SAM2-UNet-for-Breast-Image-Segmentation-Without-Pectoral-Muscle-and-Artifacts.git
 ```
 
 ## Prepare Datasets
