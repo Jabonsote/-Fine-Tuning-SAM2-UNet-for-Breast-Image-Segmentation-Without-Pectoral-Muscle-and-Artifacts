@@ -23,7 +23,7 @@ For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [mak
 
 Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training)
 
-
+==========
 **Dataset** 📁
 ==========
 
@@ -44,7 +44,7 @@ Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-U
 
 * **images** 📸
 * **masks** 🔍
-
+==========
 
 ## Requirements
 Our project does not depend on installing SAM2. If you have already configured an environment for SAM2, then directly using this environment should also be fine. You may also create a new conda environment:
