@@ -39,7 +39,7 @@ You can find the run information of our model on [Wandb](https://wandb.ai/javier
 
 | Script | Description |
 | --- | --- |
-| `coco2sam` | A script for converting COCO dataset to SAM format |
+| `coco2sam.py` | A script for converting COCO dataset to SAM format |
 
 ### Adjusting Image Percentage
 
