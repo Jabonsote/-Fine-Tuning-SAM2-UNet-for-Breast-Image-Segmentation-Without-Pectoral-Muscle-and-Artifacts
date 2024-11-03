@@ -96,7 +96,7 @@ Inferences during training for breast segmentation without pectoral muscle 💡
 In this example, we demonstrate the model's ability to make inferences during training for the task of breast segmentation without pectoral muscle 🤖. The goal is to identify and segment the breast in mammography images, excluding the pectoral muscle 📸.
 
 ![Inferences during training](/img/inferences.png)
-
+[REPORT OF METRICS](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 Nipple marks: Marks or artifacts around the nipple area can be challenging for the model to distinguish from the breast tissue.
 Pectoral muscle (upper and lower borders): The pectoral muscle can be a significant challenge for segmentation, especially when its upper and lower borders are not clearly defined.
@@ -104,7 +104,6 @@ Breast implants
 
 ![Inferences during training](/img/inference1.png)
 
-[REPORT OF OUR MODEL WANDB](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 ## Evaluation
 After obtaining the prediction maps, you can run `eval.sh` to get most of the quantitative results. For the evaluation of mirror detection, please refer to `eval.py` in [HetNet](https://github.com/Catherine-R-He/HetNet) to obtain the results.
