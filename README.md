@@ -1,7 +1,7 @@
 ## [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870)
 Xinyu Xiong, Zihuang Wu, Shuangyi Tan, Wenxue Li, Feilong Tang, Ying Chen, Siying Li, Jie Ma, Guanbin Li
 
-## Introduction
+  ## Architecture
 ![framework](./sam2unet.jpg)
 
 ## Clone Repository
@@ -23,17 +23,21 @@ For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [mak
 
 Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training)
 ```
-structure for dataset (images and masks)
-dataset
-  | train
-      |images
-      |mask
-  | valid
-      |images
-      |mask
-  | test
-      |images
-      |mask
+
+**Dataset** 📁
+==========
+
+| --- |
+| **train** 🏋️‍♂️ |
+|  | **images** 📸 |
+|  | **masks** 🔍 |
+| **valid** 👍 |
+|  | **images** 📸 |
+|  | **masks** 🔍 |
+| **test** 🤔 |
+|  | **images** 📸 |
+|  | **masks** 🔍 |
+
 ```
 
 
