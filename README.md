@@ -92,12 +92,13 @@ Our pre-trained models and prediction maps can be found on [Google Drive](https:
 Inferences during training for breast segmentation without pectoral muscle 💡
 
 In this example, we demonstrate the model's ability to make inferences during training for the task of breast segmentation without pectoral muscle 🤖. The goal is to identify and segment the breast in mammography images, excluding the pectoral muscle 📸.
+
 ![Inferences during training](/img/inferences.png)
 
 
-- Nipple marks 🤯: Marks or artifacts around the nipple area can be challenging for the model to distinguish from the breast tissue.
-- Pectoral muscle (upper and lower borders) 🏋️‍♂️: The pectoral muscle can be a significant challenge for segmentation, especially when its upper and lower borders are not clearly defined.
-- Breast implants 🌸
+Nipple marks: Marks or artifacts around the nipple area can be challenging for the model to distinguish from the breast tissue.
+Pectoral muscle (upper and lower borders): The pectoral muscle can be a significant challenge for segmentation, especially when its upper and lower borders are not clearly defined.
+Breast implants
 
 ![Inferences during training](/img/inference1.png)
 
