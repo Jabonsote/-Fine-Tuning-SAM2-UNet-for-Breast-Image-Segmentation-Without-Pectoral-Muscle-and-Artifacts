@@ -17,7 +17,34 @@ You can refer to the following repositories and their papers for the detailed co
 - Mirror Detection. Please refer to [HetNet](https://github.com/Catherine-R-He/HetNet).
 - Polyp Segmentation. Please refer to [PraNet](https://github.com/DengPingFan/PraNet).
 
-For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [makesense.ai](https://www.makesense.ai/) for export to COCO dataset and use the script coco2sam, and ajust the porcent of images
+### Examples of Tools for Segmentation and Data Export
+
+For segmentation, you can use [Roboflow](https://universe.roboflow.com/) or [Makesense.ai](https://www.makesense.ai/) to export your data to a COCO dataset format and use the `coco2sam` script to adjust the percentage of images.
+
+![Roboflow or Makesense for labeling data](/img/ro.gif)
+
+### Run Information on Wandb
+
+You can find the run information of our model on [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training).
+
+
+### Tools for Segmentation and Data Export
+
+| Tool | Description |
+| --- | --- |
+| [Roboflow](https://universe.roboflow.com/) | A platform for data labeling and annotation |
+| [Makesense.ai](https://www.makesense.ai/) | A platform for data labeling and annotation |
+
+### Script for Data Export
+
+| Script | Description |
+| --- | --- |
+| `coco2sam` | A script for converting COCO dataset to SAM format |
+
+### Adjusting Image Percentage
+
+You can adjust the percentage of images using the `coco2sam` script. This will help you to fine-tune your model and improve its performance.
+
 ![Roboflow or Makesense for label data](/img/ro.gif)
 
 
