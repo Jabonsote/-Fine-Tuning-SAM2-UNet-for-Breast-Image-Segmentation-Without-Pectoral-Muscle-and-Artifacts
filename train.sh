@@ -1,9 +1,10 @@
 CUDA_VISIBLE_DEVICES="0" \
 python train.py \
---hiera_path "<set your pretrained hiera path here>" \
---train_image_path "<set your training image dir here>" \
---train_mask_path "<set your training mask dir here>" \
---save_path "<set your checkpoint saving dir here>" \
---epoch 20 \
+--hiera_path "sam2_hiera_large.pt" \
+--train_image_path "Dataset/train/images/" \
+--train_mask_path "Dataset/train/masks/" \
+--save_path "checkpoint" \
+--epoch 1000 \
 --lr 0.001 \
---batch_size 12
+--batch_size 16 
+  
