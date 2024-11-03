@@ -23,27 +23,27 @@ For segmentation you can use [Roboflow](https://universe.roboflow.com/). or [mak
 
 Run information in wandb [Wandb](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training)
 
-==========
+
 **Dataset** 📁
 ==========
 
 **train** 🏋️‍♂️
 --------
 
-* **images** 📸
-* **masks** 🔍
-
+  * **images** 📸
+  * **masks** 🔍
+  
 **valid** 👍
 --------
 
-* **images** 📸
-* **masks** 🔍
+  * **images** 📸
+  * **masks** 🔍
 
 **test** 🤔
 --------
 
-* **images** 📸
-* **masks** 🔍
+  * **images** 📸
+  * **masks** 🔍
 ==========
 
 ## Requirements
