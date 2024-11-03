@@ -3,7 +3,7 @@ Xinyu Xiong, Zihuang Wu, Shuangyi Tan, Wenxue Li, Feilong Tang, Ying Chen, Siyin
 
   ## Architecture
 ![framework](./sam2unet.jpg)
-![REPORT OF OUR MODEL](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
+[SAM2 Unet - Fine-tuning for medical segmentation](https://wandb.ai/javier-ramirez-gonzalez/SAM2-UNet-training/reports/SAM2-Unet-Fine-tuning-for-medical-segmentation--Vmlldzo5OTg4MDA0)
 
 ## Clone Repository
 ```shell
